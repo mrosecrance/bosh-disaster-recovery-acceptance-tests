@@ -20,7 +20,7 @@ update:
   update_watch_time: 1000-30000
 
 instance_groups:
-- name: small-deployment
+- name: small-job
   azs: [((az_name))]
   instances: 1
   jobs:
