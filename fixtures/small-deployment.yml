@@ -20,7 +20,7 @@ update:
   update_watch_time: 1000-30000
 
 instance_groups:
-- name: zookeeper
+- name: small-deployment
   azs: [((az_name))]
   instances: 1
   jobs:
